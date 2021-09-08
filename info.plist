@@ -29,7 +29,7 @@
 				<key>modifiers</key>
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
-				<string>Search Query in Bear App</string>
+				<string>Search Query in New Window</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -49,7 +49,7 @@
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>Open Note in Bear App</string>
+				<string>Open Note in New Window</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -144,7 +144,7 @@
 				<key>modifiers</key>
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
-				<string>Search Query in Bear App</string>
+				<string>Search Query in New Window</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -164,7 +164,7 @@
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>Open Note in Bear App</string>
+				<string>Open Note in New Window</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -197,7 +197,7 @@
 				<key>modifiers</key>
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
-				<string>Search Query in Bear App</string>
+				<string>Search Query in New Window</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -217,7 +217,7 @@
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>Open Note in Bear App</string>
+				<string>Open Note in New Window</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -250,7 +250,7 @@
 				<key>modifiers</key>
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
-				<string>Search Query in Bear App</string>
+				<string>Search Query in New Window</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -270,7 +270,7 @@
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>Open Note in Bear App</string>
+				<string>Open Note in New Window</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -627,7 +627,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>open "bear://x-callback-url/create?{query}&amp;show_window=yes&amp;new_window=yes&amp;edit=yes"</string>
+				<string>open "bear://x-callback-url/create?{query}&amp;show_window=yes&amp;new_window=no&amp;edit=yes"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -699,7 +699,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>open "bear://x-callback-url/create?{query}&amp;show_window=yes&amp;new_window=no&amp;edit=yes"</string>
+				<string>open "bear://x-callback-url/create?{query}&amp;show_window=yes&amp;new_window=yes&amp;edit=yes"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -1061,7 +1061,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>open "bear://x-callback-url/open-note?id={query}&amp;show_window=yes&amp;new_window=yes&amp;edit=yes"</string>
+				<string>open "bear://x-callback-url/open-note?id={query}&amp;show_window=yes&amp;new_window=no&amp;edit=yes"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -1105,7 +1105,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>open "bear://x-callback-url/open-note?id={query}&amp;show_window=yes&amp;new_window=no&amp;edit=yes"</string>
+				<string>open "bear://x-callback-url/open-note?id={query}&amp;show_window=yes&amp;new_window=yes&amp;edit=yes"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -1673,7 +1673,7 @@
 		<key>C09F10FC-E57F-47DA-9C55-84E9A68D2348</key>
 		<dict>
 			<key>note</key>
-			<string>Open Note in Bear App</string>
+			<string>Open Note in New Window</string>
 			<key>xpos</key>
 			<integer>810</integer>
 			<key>ypos</key>
@@ -1707,7 +1707,7 @@
 		<key>E2FCB7C2-A812-4419-9CD0-2E74282DF3FE</key>
 		<dict>
 			<key>note</key>
-			<string>Search Query in Bear App</string>
+			<string>Search Query in New Window</string>
 			<key>xpos</key>
 			<integer>810</integer>
 			<key>ypos</key>
